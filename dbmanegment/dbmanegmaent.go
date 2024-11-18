@@ -1,14 +1,5 @@
 package dbmanegment
 
-
-/*type DBcrud interface{
-	Connect()error
-	Insert(id uint64 , l string)
-	Delete(id uint64)
-	Read_all()
-	Read(id uint64) 
-	Update(id uint64 , l string)
-}*/
 var mysqlrepo = new(MysqlManegment)
 var redisrepo = new(RedisManegmant)
 
